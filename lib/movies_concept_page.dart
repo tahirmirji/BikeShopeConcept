@@ -1,39 +1,39 @@
 import 'dart:ui';
 import 'package:flutter/material.dart';
 
-class Movie {
+class Bike {
   final String url;
   final String title;
   final String price;
 
-  const Movie({this.url, this.title, this.price});
+  const Bike({this.url, this.title, this.price});
 }
 
 const movies = [
-  const Movie(
+  const Bike(
       url: 'https://bs-ather-jobs-assests.s3-ap-south-1.amazonaws.com/bpa-assests/mini-450x-referral-banner.png', title: 'Ather', price: '1,50,000'),
-  const Movie(
+  const Bike(
       url:
           'https://media.zigcdn.com/media/content/2019/Nov/chetak_thumb.jpg',
       title: 'Bajaj Chetak Electric', price: '1,20,000'),
-  const Movie(
+  const Bike(
       url:
           'https://images.carandbike.com/bike-images/large/revolt/rv400/revolt-rv400.jpg?v=9',
       title: 'Revolt RV400 Electric', price: '1,35,000'),
-  const Movie(
+  const Bike(
     url:
         'https://imgd.aeplcdn.com/1200x900/bw/models/tvs-iqube-standard20200125210025.jpg',
     title: 'TVS iQube Electric', price: '80,000'
   ),
-  const Movie(
+  const Bike(
     url: 'https://bd.gaadicdn.com/processedimages/hero-electric/optima-la/source/m_optima-la_11566279915.jpg',
     title: 'Hero Electric Optima', price: '1,10,000'
   ),
-  const Movie(
+  const Bike(
     url: 'https://www.motoroids.com/wp-content/uploads/2021/01/Joy-e-bikes-hurricane.jpg',
     title: 'Joy e-bike Monster', price: '1,60,000'
   ),
-  const Movie(
+  const Bike(
     url: 'https://gomechanic.in/blog/wp-content/uploads/2020/02/n-16_6730b5ee-1000x800.jpg',
     title: 'EPluto 7G Electric', price: '1,85,000'
   ),
