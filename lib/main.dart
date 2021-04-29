@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'movies_concept_page.dart';
+import 'bike_concept_page.dart';
 
 void main() {
   runApp(MyApp());
@@ -14,7 +14,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: MoviesConceptPage(),
+      home: BikeConceptPage(),
     );
   }
 }

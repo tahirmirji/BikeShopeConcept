@@ -39,12 +39,12 @@ const movies = [
   ),
 ];
 
-class MoviesConceptPage extends StatefulWidget {
+class BikeConceptPage extends StatefulWidget {
   @override
-  _MoviesConceptPageState createState() => _MoviesConceptPageState();
+  _BikeConceptPageState createState() => _BikeConceptPageState();
 }
 
-class _MoviesConceptPageState extends State<MoviesConceptPage> {
+class _BikeConceptPageState extends State<BikeConceptPage> {
   final pageController = PageController(viewportFraction: 0.7);
   final ValueNotifier<double> _pageNotifier = ValueNotifier(0.0);
 
